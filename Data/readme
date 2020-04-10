@@ -1,0 +1,11 @@
+
+There are two sample datasets.
+
+expression-Stage1.RData: Gene expression expression for breast cancer at stage I, where 
+                         rows are samples and columns are genes  
+  
+
+Test.RData: networks  for DrNMF with n*n*5, where n=1500 and networks[,,1:4] corresponds 
+            to the gene co-expression network from stage I to IV, and networks[,,5] is the 
+            protein interaction networks. The symbols of genes are listed in genename.
+     
